@@ -4,11 +4,6 @@
 
 ![Python 3.8](https://img.shields.io/badge/python-3.8-g) ![pytorch 1.12.0](https://img.shields.io/badge/pytorch-1.12.1-blue.svg)
 
-This repository is the official implementation of [LAMP]()
-
-> **LAMP: Learn A Motion Pattern for Few-Shot Video Generation**<br>
-> Ruiqi Wu, Linagyu Chen, Tong Yang, Chunle Guo, Chongyi Li, Xiangyu Zhang 
-><br>( * indicates corresponding author)
 
 [[Arxiv Paper](https://arxiv.org/abs/2310.10769)]&nbsp;
 [[Website Page](https://rq-wu.github.io/projects/LAMP/index.html)]&nbsp;
@@ -20,12 +15,14 @@ This repository is the official implementation of [LAMP]()
 :rocket: LAMP is a **few-shot-based** method for text-to-video generation. You only need **8~16 videos 1 GPU (> 15 GB VRAM)** for training!! Then you can generate videos with learned motion pattern.
 
 ## News
+<!--
 - [2024/02/27] Our paper is accepted by CVPR2024!
 - [2023/11/15] The code for applying LAMP on video editing is released!
 - [2023/11/02] The [Colab demo](https://colab.research.google.com/drive/1Cw2e0VFktVjWC5zIKzv2r7D2-4NtH8xm?usp=sharing) is released! Thanks for the PR of @ShashwatNigam99.
-- [2023/10/21] We add Google Drive link about our checkpoints and training data.
-- [2023/10/17] We release our checkpoints and [Arxiv paper](https://arxiv.org/abs/2310.10769).
-- [2023/10/16] Our code is publicly available.
+-->
+- [2023/11/13] We add Google Drive link about our checkpoints and training data.
+- [2024/11/12] We release our checkpoints.
+- [2024/11/11] Our code is publicly available.
 ## Preparation
 ### Dependencies and Installation
 - Ubuntu > 18.04
