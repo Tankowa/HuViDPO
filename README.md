@@ -64,7 +64,7 @@ In our work, we use [Stable Diffusion v1.4](https://huggingface.co/CompVis/stabl
 
 4. After deploying the data, run the prepared demo and rate it according to your preferences.
    ```bash
-        python give_score.py
+   python give_score.py
    ```
 
 <!--
