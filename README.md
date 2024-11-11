@@ -199,7 +199,18 @@ CUDA_VISIBLE_DEVICES=X python inference_script_dpo.py --weight ./output/smile/di
             <img src="assets/guitar/6.gif">
         </td>
     </tr>
-
+    <tr>
+        <td align="center" style="width: 7%"> Birds fly</td>
+        <td align="center">
+            <img src="assets/birds_fly/1.gif">
+        </td>
+        <td align="center">
+            <img src="assets/birds_fly/5.gif">
+        </td>
+        <td align="center">
+            <img src="assets/birds_fly/6.gif">
+        </td>
+    </tr>
 <table>
 
 
