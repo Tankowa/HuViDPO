@@ -175,29 +175,17 @@ CUDA_VISIBLE_DEVICES=X python inference_script_dpo.py --weight ./output/smile/di
             <img src="assets/helicopter/7.gif">
         </td>
     </tr>
-    <tr class="prompt-row">
-        <td align="center" style="width: 7%"> </td>
-        <td align="center">Fireworks in desert night.</td>
-        <td align="center">Fireworks over the mountains.</td>
-        <td align="center">Fireworks in the night city.</td>
-    </tr>
     <tr>
-        <td align="center" style="width: 7%"> Play the guitar</td>
+        <td align="center" style="width: 7%"> Waterfall</td>
         <td align="center">
-            <img src="assets/inference-GTA5_poster,_a_man_plays_the_guitar.gif">
+            <img src="assets/waterfall/1.gif">
         </td>
         <td align="center">
-            <img src="assets/inference-a_woman_plays_the_guitar (1).gif">
+            <img src="assets/waterfall/2.gif">
         </td>
         <td align="center">
-            <img src="assets/inference-an_astronaut_plays_the_guitar,_photorelastic.gif">
+            <img src="assets/waterfall/3.gif">
         </td>
-    </tr>
-    <tr class="prompt-row">
-        <td align="center" style="width: 7%"> </td>
-        <td align="center">GTA5 poster, a man plays the guitar.</td>
-        <td align="center">A woman plays the guitar.</td>
-        <td align="center">An astronaut plays the guitar, photorealistic.</td>
     </tr>
     <tr>
         <td align="center" style="width: 7%"> Birds fly</td>
