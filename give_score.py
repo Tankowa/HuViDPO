@@ -4,7 +4,7 @@ import os, json
 app = Flask(__name__)
 
 # 设置你的视频文件路径
-VIDEO_FOLDER = '/home/jianglifan/DPO-VDM/train_data/videos/rain'
+VIDEO_FOLDER = 'XXXXXXXXX'
 
 # 获取所有视频文件列表，按照阿拉伯数字顺序排序
 def extract_numeric(filename):
