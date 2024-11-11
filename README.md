@@ -33,6 +33,14 @@
 - [2023/11/13] We add Google Drive link about our checkpoints and training data.
 - [2024/11/12] We release our checkpoints.
 - [2024/11/11] Our code is publicly available.
+
+## Our Method
+![Description of Image](image/pipeline.png)
+
+Training pipeline of our HuViDPO. Training process can be divided into two stages: (1) Training the Attention Block and Temporal-Spatial layers using basic training data to improve the spatiotemporal consistency. (2) Fine-tuning the model, with LoRA added and other layers frozen, using small-scale human preference datasets and DPO strategy to enhance its alignment with human preferences.
+
+
+
 ## Preparation
 ### Dependencies and Installation
 - Ubuntu > 18.04
