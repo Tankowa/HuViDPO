@@ -41,8 +41,8 @@
 
 ```bash
 # clone the repo
-git clone https://github.com/RQ-Wu/LAMP.git
-cd LAMP
+git clone https://github.com/Tankowa/HuViDPO.git
+cd HuViDPO
 
 # create virtual environment
 conda create -n HuViDPO python=3.8
@@ -60,7 +60,9 @@ In our work, we use [Stable Diffusion v1.4](https://huggingface.co/CompVis/stabl
 
 2. Our checkpoint and training data are listed as follows. You can also collect video data by your own (Suggest websites: [pexels](https://pexels.com/), [frozen-in-time](https://meru.robots.ox.ac.uk/frozen-in-time/)) and put .mp4 files in `./train_data/videos/[motion_name]/` and `./train_data/dpo_videos/[motion_name]/`
 
-3. [Update] You can find the training video for video editing demo in `assets/run.mp4`
+3. [Update] You can find the training videos and our trained model weights at [Google Drive](https://drive.google.com/drive/folders/1e409tML98gwouIOxFwcFuGVBSNwsfEtY?usp=share_link)]
+
+<!--
 <table class="center">
 <tr>
     <td align="center"> Motion Name </td>
@@ -113,6 +115,7 @@ In our work, we use [Stable Diffusion v1.4](https://huggingface.co/CompVis/stabl
     <td align="center"><a href="https://pan.baidu.com/s/1h5HrIGWP5OlMqp9gkD9cyQ">Baidu Disk (pwd: 2i2k)</a></td>
 </tr>
 </table>
+-->
 
 ## Get Started
 ### 1. Training
