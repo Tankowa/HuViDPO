@@ -45,11 +45,11 @@ git clone https://github.com/RQ-Wu/LAMP.git
 cd LAMP
 
 # create virtual environment
-conda create -n LAMP python=3.8
-conda activate LAMP
+conda create -n HuViDPO python=3.8
+conda activate HuViDPO
 
 # install packages
-pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
 pip install -r requirements.txt
 pip install xformers==0.0.13
 ```
@@ -58,7 +58,7 @@ pip install xformers==0.0.13
 1. You can download pre-trained T2I diffusion models on Hugging Face.
 In our work, we use [Stable Diffusion v1.4](https://huggingface.co/CompVis/stable-diffusion-v1-4) as our backbone network. Clone the pretrained weights by `git-lfs` and put them in `./checkpoints`
 
-2. Our checkpoint and training data are listed as follows. You can also collect video data by your own (Suggest websites: [pexels](https://pexels.com/), [frozen-in-time](https://meru.robots.ox.ac.uk/frozen-in-time/)) and put .mp4 files in `./training_videos/[motion_name]/`
+2. Our checkpoint and training data are listed as follows. You can also collect video data by your own (Suggest websites: [pexels](https://pexels.com/), [frozen-in-time](https://meru.robots.ox.ac.uk/frozen-in-time/)) and put .mp4 files in `./train_data/videos/[motion_name]/` and `./train_data/dpo_videos/[motion_name]/`
 
 3. [Update] You can find the training video for video editing demo in `assets/run.mp4`
 <table class="center">
