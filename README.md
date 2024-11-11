@@ -1,8 +1,5 @@
-<p align="center">
-  <img src="assets/LOGO.png" height=170>
-</p>
 
-# <p align="center"> [CVPR 2024] | LAMP: Learn A Motion Pattern for Few-Shot-Based Video Generation </p>
+# <p align="center"> HuViDPO: Enhancing Video Generation through Direct Preference Optimization for Human-Centric Alignment </p>
 
 
 ![Python 3.8](https://img.shields.io/badge/python-3.8-g) ![pytorch 1.12.0](https://img.shields.io/badge/pytorch-1.12.1-blue.svg)
