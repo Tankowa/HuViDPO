@@ -4,15 +4,25 @@
 
 ![Python 3.8](https://img.shields.io/badge/python-3.8-g) ![pytorch 1.12.0](https://img.shields.io/badge/pytorch-1.12.1-blue.svg)
 
+[[Arxiv Paper](#待更新)]&nbsp;
+[[Website Page](#待更新)]&nbsp;
+[[Google Drive](#待更新)]&nbsp;
+[[Baidu Disk (pwd: ffsp)](#待更新)]&nbsp;
+[[Colab Notebook](#待更新)]&nbsp;
 
+<!--
 [[Arxiv Paper](https://arxiv.org/abs/2310.10769)]&nbsp;
 [[Website Page](https://rq-wu.github.io/projects/LAMP/index.html)]&nbsp;
 [[Google Drive](https://drive.google.com/drive/folders/1e409tML98gwouIOxFwcFuGVBSNwsfEtY?usp=share_link)]&nbsp;
 [[Baidu Disk (pwd: ffsp)](https://pan.baidu.com/s/1y9L2kfUlaHVZGE6B0-vXnA)]&nbsp;
 [[Colab Notebook](https://colab.research.google.com/drive/1Cw2e0VFktVjWC5zIKzv2r7D2-4NtH8xm?usp=sharing)]&nbsp;
+-->
+
+<!--
 ![method](assets/method.png)&nbsp;
 
 :rocket: LAMP is a **few-shot-based** method for text-to-video generation. You only need **8~16 videos 1 GPU (> 15 GB VRAM)** for training!! Then you can generate videos with learned motion pattern.
+-->
 
 ## News
 <!--
