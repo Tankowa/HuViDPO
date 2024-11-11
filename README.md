@@ -60,7 +60,12 @@ In our work, we use [Stable Diffusion v1.4](https://huggingface.co/CompVis/stabl
 
 2. Our checkpoint and training data are listed as follows. You can also collect video data by your own (Suggest websites: [pexels](https://pexels.com/), [frozen-in-time](https://meru.robots.ox.ac.uk/frozen-in-time/)) and put .mp4 files in `./train_data/videos/[motion_name]/` and `./train_data/dpo_videos/[motion_name]/`
 
-3. [Update] You can find the training videos and our trained model weights at [[Google Drive](https://drive.google.com/drive/folders/1e409tML98gwouIOxFwcFuGVBSNwsfEtY?usp=share_link)]
+3. You can find the training videos and our trained model weights at [[Google Drive](https://drive.google.com/drive/folders/1e409tML98gwouIOxFwcFuGVBSNwsfEtY?usp=share_link)]
+
+4. After deploying the data, run the prepared demo and rate it according to your preferences.
+   ```bash
+        python give_score.py
+   ```
 
 <!--
 <table class="center">
@@ -224,6 +229,8 @@ Coming soon！
 Licensed under a [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) for Non-commercial use only.
 Any commercial use should get formal permission first.
 
+<!--
 ## Acknowledgement
 This repository is maintained by [Lifan Jiang](https://rq-wu.github.io/).
 The code is built based on [LAMP](https://github.com/RQ-Wu/LAMP). Thanks for the excellent open-source code!!
+-->
