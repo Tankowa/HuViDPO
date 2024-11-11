@@ -152,33 +152,27 @@ CUDA_VISIBLE_DEVICES=X python inference_script_dpo.py --weight ./output/smile/di
 ### Few-Shot-Based Text-to-Video Generation
 <table class="center">
     <tr>
-        <td align="center" style="width: 7%"> Horse run</td>
-        <td align="center">
-            <img src="assets/inference-a_horse_runs_in_the_universe (1).gif">
-        </td>
-        <td align="center">
-            <img src="assets/inference-a_horse_runs_on_the_Mars (3).gif">
-        </td>
-        <td align="center">
-            <img src="assets/inference-a_horse_runs_on_the_road (1).gif">
-        </td>
-    </tr>
-    <tr class="prompt-row">
-        <td align="center" style="width: 7%"> </td>
-        <td align="center">A horse runs in the universe.</td>
-        <td align="center">A horse runs on the Mars.</td>
-        <td align="center">A horse runs on the road.</td>
-    </tr>
-    <tr>
         <td align="center" style="width: 7%"> Firework</td>
         <td align="center">
-            <img src="assets/inference-fireworks_in_desert_night.gif">
+            <img src="assets/firework/2.gif">
         </td>
         <td align="center">
-            <img src="assets/inference-fireworks_over_the_mountains (1).gif">
+            <img src="assets/firework/5.gif">
         </td>
         <td align="center">
-            <img src="assets/inference-fireworks_in_the_night_city.gif">
+            <img src="assets/firework/6.gif">
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="width: 7%"> Helicopter</td>
+        <td align="center">
+            <img src="assets/helicopter/3.gif">
+        </td>
+        <td align="center">
+            <img src="assets/helicopter/6.gif">
+        </td>
+        <td align="center">
+            <img src="assets/helicopter/7.gif">
         </td>
     </tr>
     <tr class="prompt-row">
