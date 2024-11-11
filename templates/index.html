@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视频评分</title>
+</head>
+<body>
+    <h1>视频评分</h1>
+
+    <form action="{{ url_for('submit_score') }}" method="POST">
+        {% for video_file in video_files %}
+        <div style="margin-bottom: 20px;">
+            <!-- 使用 video 标签显示 MP4 -->
+            <video width="640" height="360" controls>
+                <source src="{{ url_for('video', filename=video_file) }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <br>
+            <label for="score_{{ loop.index }}">为视频 {{ loop.index }} 评分：</label>
+            <!-- 允许小数输入 -->
+            <input type="number" id="score_{{ loop.index }}" name="score_{{ loop.index }}" step="0.01" min="0" max="10" required>
+        </div>
+        {% endfor %}
+        <button type="submit">提交评分</button>
+    </form>
+
+</body>
+</html>
