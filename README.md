@@ -225,57 +225,11 @@ CUDA_VISIBLE_DEVICES=X python inference_script_dpo.py --weight ./output/smile/di
     </tr>
 <table>
 
-### Video Editing
-<table style="width: 100%;">
-    <tbody>
-        <tr class="prompt-row">
-            <td align="center"> Origin Videos </td>
-            <td align="center"> Editing Result-1</td>
-            <td align="center"> Editing Result-2</td>
-        </tr>
-        <tr class="result-row">
-            <td align="center">
-                <img src="assets/run.gif">
-            </td>
-            <td align="center">
-                <img src="assets/inference-a girl in black runs on the road.gif">
-            </td>
-            <td align="center">
-                <img src="assets/inference-a man runs on the road.gif">
-            </td>
-        </tr>
-        <tr class="prompt-row">
-            <td align="center"></td>
-            <td align="center">A girl in black runs on the road.</td>
-            <td align="center">A man runs on the road.</td>
-        </tr>
-        <tr class="result-row">
-            <td align="center">
-                <img src="assets/dance.gif">
-            </td>
-            <td align="center">
-                <img src="assets/inference-a man is dancing.gif">
-            </td>
-            <td align="center">
-                <img src="assets/inference-a girl in white is dancing.gif">
-            </td>
-        </tr>
-        <tr class="prompt-row">
-            <td align="center"></td>
-            <td align="center">A man is dancing.</td>
-            <td align="center">A girl in white is dancing.</td>
-        </tr>
-    </tbody>
-</table>
 
 ## Citation
 If you find our repo useful for your research, please cite us:
 ```
-@inproceedings{wu2024lamp,
-      title={LAMP: Learn A Motion Pattern for Few-Shot Video Generation},
-      author={Wu, Ruiqi and Chen, Liangyu and Yang, Tong and Guo, Chunle and Li, Chongyi and Zhang, Xiangyu},
-      booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-      year={2024}
+Coming soon！
 ```
 
 ## License
@@ -283,5 +237,5 @@ Licensed under a [Creative Commons Attribution-NonCommercial 4.0 International](
 Any commercial use should get formal permission first.
 
 ## Acknowledgement
-This repository is maintained by [Ruiqi Wu](https://rq-wu.github.io/).
-The code is built based on [Tune-A-Video](https://github.com/showlab/Tune-A-Video). Thanks for the excellent open-source code!!
+This repository is maintained by [Lifan Jiang](https://rq-wu.github.io/).
+The code is built based on [LAMP](https://github.com/RQ-Wu/LAMP). Thanks for the excellent open-source code!!
