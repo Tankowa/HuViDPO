@@ -190,21 +190,28 @@ CUDA_VISIBLE_DEVICES=X python inference_script_dpo.py --weight ./output/smile/di
     <tr>
         <td align="center" style="width: 7%"> Birds fly</td>
         <td align="center">
-            <img src="assets/inference-birds_fly_in_the_pink_sky.gif">
+            <img src="assets/birds fly/1.gif">
         </td>
         <td align="center">
-            <img src="assets/inference-birds_fly_in_the_sky,_over_the_sea.gif">
+            <img src="assets/birds fly/5.gif">
         </td>
         <td align="center">
-            <img src="assets/inference-many_birds_fly_over_a_plaza.gif">
+            <img src="assets/birds fly/6.gif">
         </td>
     </tr>
-    <tr class="prompt-row">
-        <td align="center" style="width: 7%"></td>
-        <td align="center">Birds fly in the pink sky.</td>
-        <td align="center">Birds fly in the sky, over the sea.</td>
-        <td align="center">Many Birds fly over a plaza.</td>
+    <tr>
+        <td align="center" style="width: 7%"> Play the guitar</td>
+        <td align="center">
+            <img src="assets/guitar/2.gif">
+        </td>
+        <td align="center">
+            <img src="assets/guitar/5.gif">
+        </td>
+        <td align="center">
+            <img src="assets/guitar/6.gif">
+        </td>
     </tr>
+
 <table>
 
 
