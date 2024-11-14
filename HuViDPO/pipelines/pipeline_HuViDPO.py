@@ -264,7 +264,7 @@ class HuViDPO(DiffusionPipeline):
         latents = rearrange(latents, "b c f h w -> (b f) c h w")
         video = self.vae.decode(latents).sample
         video = rearrange(video, "(b f) c h w -> b c f h w", f=video_length)
-        video = (video / 2 + 0.5).cHuViDPO(0, 1)
+        video = (video / 2 + 0.5).clamp(0, 1)
         # we always cast to float32 as this does not cause significant overhead and is compatible with bfloat16
         video = video.cpu().float().numpy()
         return video
